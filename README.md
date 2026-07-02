@@ -35,6 +35,18 @@ Memory persists across sessions and is inspectable in the
 [Enacta dashboard](https://app.multi-turn.ai/dashboard): every record, every
 retrieval, with evidence.
 
+## Install as a plain skill (any agent)
+
+The skill also works standalone via the [skills](https://skills.sh) CLI —
+Claude Code, Cursor, Codex, and 20+ other agents:
+
+```bash
+npx skills add multi-turn-inc/enacta-plugins --skill enacta-memory
+```
+
+(The top-level `skills/` directory mirrors
+`plugins/enacta-memory/skills/` for skills-CLI discovery; keep both in sync.)
+
 ## Works with any MCP client
 
 The same remote server works in any MCP client:
