@@ -1,0 +1,13 @@
+{
+  "name": "enacta-memory",
+  "version": "0.1.0",
+  "description": "Long-term memory for Claude Code via Enacta - durable records, observable retrieval, evidence-backed context across sessions.",
+  "author": {
+    "name": "Multi-turn Inc.",
+    "email": "founder@multi-turn.ai"
+  },
+  "homepage": "https://api.multi-turn.ai/docs",
+  "repository": "https://github.com/multi-turn-inc/enacta-plugins",
+  "license": "MIT",
+  "keywords": ["memory", "mcp", "context"]
+}

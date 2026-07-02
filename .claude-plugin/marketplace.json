@@ -1,0 +1,29 @@
+{
+  "name": "enacta",
+  "owner": {
+    "name": "Multi-turn Inc.",
+    "email": "founder@multi-turn.ai",
+    "url": "https://multi-turn.ai"
+  },
+  "metadata": {
+    "description": "Official Enacta plugins - long-term memory infrastructure for coding agents.",
+    "version": "0.1.0"
+  },
+  "plugins": [
+    {
+      "name": "enacta-memory",
+      "source": "./plugins/enacta-memory",
+      "description": "Long-term memory for Claude Code: store decisions, preferences, and project context in Enacta and retrieve them in later sessions. Bundles the Enacta MCP server and a usage skill.",
+      "version": "0.1.0",
+      "author": {
+        "name": "Multi-turn Inc.",
+        "email": "founder@multi-turn.ai"
+      },
+      "homepage": "https://api.multi-turn.ai/docs",
+      "repository": "https://github.com/multi-turn-inc/enacta-plugins",
+      "license": "MIT",
+      "keywords": ["memory", "mcp", "context", "agents", "enacta"],
+      "category": "productivity"
+    }
+  ]
+}

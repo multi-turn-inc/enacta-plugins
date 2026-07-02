@@ -1,0 +1,11 @@
+{
+  "mcpServers": {
+    "enacta": {
+      "type": "http",
+      "url": "https://api.multi-turn.ai/mcp",
+      "headers": {
+        "Authorization": "Bearer ${ENACTA_API_KEY}"
+      }
+    }
+  }
+}
